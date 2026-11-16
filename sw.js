@@ -1,4 +1,4 @@
-/* 硯冊上鎖版的離線快取（版本 202611150634） */
+/* 硯冊上鎖版的離線快取（版本 202611161335） */
 const CACHE = "yance-shell";
 const FONT = "yance-fonts";
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(["./", "./apple-touch-icon.png"]).catch(() => { }))); self.skipWaiting(); });
